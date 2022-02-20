@@ -1,0 +1,27 @@
+[
+	{
+		//nations
+		"name": "Darklandia", 
+		"leaderName": "One Eyed Syarikat",
+		"adjective": ["Darklandian"],
+    "preferredVictoryType": "Scientific",
+
+		"startIntroPart1": "Darklandia is a great nation that endured countless wars and still came out on top of all others. They love peace, and has a strong military to defend against threats. But a strong military is useless without a leader..., you are that leader, One Eyed Syarikat.",
+		"startIntroPart2": "Whom will you become? A pacifist ruler who is loved by the people, as One Eyed Syarikat was, or a warmongering emperor who is hated by the populace? Choose with heart and mind....",
+
+		"declaringWar": "It is sad, but there is no other choice.",
+		"attacked": "It is unwise to have war, my friend.",
+		"defeated": "I confess, you would've been a great military commander. I am honored to be defeated by the likes of you.",
+		"introduction": "Hello there! I am One Eyed Syarikat, who are you?",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "Greetings...",
+
+		"tradeRequest": "Is this suitable for you?",
+
+      "outerColor": [255,255,255]
+  		"innerColor": [255,255,255]
+		"uniqueName": "Darklandian Spirit",
+		"uniques": ["+[150]% [Production] [in all cities]", "+[150]% [Science] [in all cities]","-[85]% [Faith] [in all cities]"],
+		"cities": ["Darklandia","Mintui","Dur-Kuraganana","Nuria","Papansrita","Sritaipapar","Lighoet","Mariana","Shunia","Enazusion"]
+	}
