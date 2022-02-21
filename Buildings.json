@@ -1,0 +1,22 @@
+[
+     	{
+		       "name": "The Four Corners",
+		       "replaces": "Monument",
+		       "uniqueTo": "Darklandia",
+		       "science": 5,
+           "production": 3,
+           "gold": 30,
+		       "culture": 10,
+		       "cityStrength": 10,
+		       "cost": 40,
+		       "maintenance": 1,
+		       "requiredTech": "Pottery",
+      },
+      {
+           "name": "The Four Corners",
+		       "replaces": "Monument",
+		       "uniqueTo": "Darklandia",
+		       "cityStrength": 10,
+		       "cityHealth": 200,
+		       "maintenance": 1,
+		       "requiredTech": "Masonry",
