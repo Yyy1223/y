@@ -13,8 +13,8 @@
 		       "requiredTech": "Pottery",
       },
       {
-           "name": "The Four Corners",
-		       "replaces": "Monument",
+           "name": "The Wall Of Darklandia",
+		       "replaces": "Walls",
 		       "uniqueTo": "Darklandia",
 		       "cityStrength": 10,
 		       "cityHealth": 200,
