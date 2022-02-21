@@ -1,0 +1,63 @@
+[
+
+	{
+		"name": "Ancient Kuyur",
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 25,
+		"cost": 60,
+		"obsoleteTech": "Iron Working",
+		"upgradesTo": "Classical Kuyur",
+		"uniques" : ["Can build [Land] improvements on tiles", "Never appears as a Barbarian unit"],
+    "promotions": ["Drill I","Shock I","Ignore terrain cost","Amphibious"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Classical Kuyur",
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 42,
+		"cost": 100,
+    "requiredTech": "Iron Working",
+		"obsoleteTech": "Steel",
+		"upgradesTo": "Medieval Kuyur",
+		"uniques" : ["Can build [Land] improvements on tiles", "Never appears as a Barbarian unit"],
+    "promotions": ["Drill I","Shock I","Ignore terrain cost","Amphibious"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Medieval Kuyur",
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 63,
+		"cost": 200,
+    "requiredTech": "Steel",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Industrial Kuyur",
+		"uniques" : ["Can build [Land] improvements on tiles", "Never appears as a Barbarian unit"],
+    "promotions": ["Drill I","Shock I","Ignore terrain cost","Amphibious"],
+		"attackSound": "metalhit"
+	},
+  {
+    "name": "Industrial Kuyur",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 85,
+		"cost": 400,
+    "requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Modern Kuyur",
+		"uniques" : ["Can build [Land] improvements on tiles", "Never appears as a Barbarian unit"],
+    "promotions": ["Drill I","Shock I","Ignore terrain cost","Amphibious"],
+		"attackSound": "cannon",
+	{
+		"name": "Modern Kuyur",
+		"unitType": "Gunpowder",
+		"movement": 4,
+		"strength": 155,
+    "interceptRange": 2,
+		"cost": 200,
+		"requiredTech": "Replaceable Parts",
+		"uniques" : ["Can see invisible [Submarine] units", "Can build [Land] improvements on tiles", "[100]% chance to intercept air attacks", "Never appears as a Barbarian unit"],
+    "promotions": ["Drill I","Shock I","Ignore terrain cost","Amphibious"],
+		"attackSound": "machinegun"
