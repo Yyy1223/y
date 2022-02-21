@@ -61,4 +61,5 @@
 		"uniques" : ["Can see invisible [Submarine] units", "Can build [Land] improvements on tiles", "[100]% chance to intercept air attacks", "Never appears as a Barbarian unit"],
     		"promotions": ["Drill I","Shock I","Ignore terrain cost","Amphibious"],
 		"attackSound": "machinegun"
-	},
+	}
+]
